@@ -18,6 +18,16 @@
 
 ---
 
+## 🚀 Live Demo
+
+**Production:** [https://eskyway-web-app.vercel.app/](https://eskyway.vercel.app)
+
+**Backend API:** [https://eskyway-web-app.onrender.com](https://eskyway-api.onrender.com/health)
+
+*Note: First load may take 30-60 seconds as Render free tier spins up the backend.*
+
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#-overview)

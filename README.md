@@ -24,10 +24,6 @@
 
 **Backend API:** [https://eskyway-api.onrender.com](https://eskyway-web-app.onrender.com)
 
-### Test Credentials
-- **Email:** `demo@eskyway.com`
-- **Password:** `Demo123!`
-
 *Note: First load may take 30-60 seconds as Render free tier spins up the backend.*
 
 ---

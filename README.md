@@ -62,6 +62,12 @@
 - ⚡ **Lightning Fast** - Built on Vite for optimal performance
 - 🔔 **Real-time Notifications** - Instant updates on ride status and bookings
 
+### Shared Backend (Web + Android)
+- The ESKYWAY web app and Android driver app use the same Firebase backend (Firestore / Realtime Database).  
+  This enables real-time synchronization of driver locations, ride status, and matching data so drivers and passengers connect faster and see the same state across both platforms.
+- Important: Drivers are present only on the Android driver app — there is no driver interface in the web app. The web app is intended for passengers (and admin) while driver operations run from the Android app.
+- Why Firebase (not MongoDB): Firebase was chosen because the web and Android apps require a shared, realtime backend with built-in auth, offline support, and low-latency synchronization (Firestore / Realtime Database). Using Firebase avoids building and hosting a custom realtime layer (websockets, sync logic, auth integration) that would be required with MongoDB, making it faster to integrate drivers and passengers across platforms.
+
 ### Sustainability & Impact
 - 🌍 **Contributing to UN SDG 11** - Sustainable Cities and Communities
 - ♻️ **Eco-Friendly Solutions** - Efficient route planning and shared mobility

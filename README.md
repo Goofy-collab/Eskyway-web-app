@@ -28,6 +28,11 @@
 
 ---
 
+## 🎥 Demo Video
+[Watch the demo](/public/video/Eskyway%20-%20Google%20Chrome%202025-11-28%2005-35-38.mp4)
+
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
